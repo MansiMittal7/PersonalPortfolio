@@ -1,0 +1,84 @@
+
+.ser{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sercards{
+    width: 1050px;
+    margin-left: 130px;
+    margin-top: 60px;
+    margin-right: 130px;
+}
+
+.card{ 
+    border: 3px solid rgb(238, 232, 232);
+    background-color: rgb(12, 15, 14);
+    color: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card:hover{
+    border: 3px solid rgb(220, 155, 24);
+}
+
+.card-icon{
+    color: rgb(220, 155, 24);
+    margin-top: 50px;
+    margin-left: 155px;
+    border: 2px solid red;
+    border-radius: 1000px;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.card-icon p{
+    
+}
+.card-subtitle{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-text{
+    font-size: 15px;
+    padding-top: 10px;
+    color: grey;
+}
+
+/* .home-sci{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(230, 153, 37);
+    border-radius:50px ;
+    color: rgb(241, 185, 16);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.home-sci a:hover{
+   background-color: rgb(241, 185, 16) ;
+   color: white ;
+} */
