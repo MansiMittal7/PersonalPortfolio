@@ -25,7 +25,7 @@ export default function Navbar({children}) {
     },
     {
        path:"/contact" ,
-       name: "Contanct",
+       name: "Contact",
        icon: <FaAddressBook/>
     },
     {
@@ -37,7 +37,7 @@ export default function Navbar({children}) {
 
   return (
     <>
-    <div className='containers'>
+    <div className='sidebar_containers'>
       <div style={{width: isOpen ? "350px" : "100px"}} className='sidebar'>
        <div className='top_section'>
           <h1 style={{display: isOpen ? "block" : "none"}}className='name'>MANSI</h1>

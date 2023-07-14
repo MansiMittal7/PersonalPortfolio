@@ -141,7 +141,7 @@ export default function About() {
   </div>
   {/* my skills end */}
 
-  <div className='abt_heading'> <h1>Coding <span className='text'>Profiles</span></h1> </div>
+  {/* <div className='abt_heading' id='codingprofile'> <h1>Coding <span className='text'>Profiles</span></h1> </div> */}
 
 
 

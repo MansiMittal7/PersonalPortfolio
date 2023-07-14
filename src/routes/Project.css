@@ -13,27 +13,51 @@ body {
   min-height: 100vh;
   font-family: 'Open Sans';
   background: #080404;
+  /* margin-left: 300px; */
 }
 
 a {
   color: inherit;
 }
 
-.pcard{
-  --bg-img:img1;
-}
 .pcards-wrapper {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
-  margin: 0 auto;
+  grid-gap: 2rem;
+  padding-top:0px ;
+  padding-left: 100px;
+  margin: 0;
   width: max-content;
 }
 
+.flex{
+  align-items: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  width: 1500px;
+  margin-top: 0px;
+  /* height: 2000px; */
+}
+
+.flex2 {
+  align-items: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  width: 1500px;
+  /* height: 2000px; */
+}
+
 .pcard {
+  align-items: center;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
@@ -50,7 +74,7 @@ a {
   background-position: center;
   box-shadow: 0 0 5em -1em black;
   transition: all, var(--transition-time);
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   border: 10px solid #8d8880;
   text-decoration: none;
@@ -100,7 +124,7 @@ a {
   padding: 1em;
   line-height: 1em;
   opacity: .8;
-  color: #eb9018;
+  color: #080400;
 }
 
 .pcard:before, .pcard:after {

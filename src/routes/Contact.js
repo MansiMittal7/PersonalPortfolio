@@ -19,6 +19,7 @@ export default function Contact() {
       </div>
 
       <div class="ccard" style={{width: "700px", height: "250px"}}>
+       {/* <h5 lass="ccard-icon"> <a class="ccard-icon" href='mansi27mittal@gmail.com'><MdEmail/></a></h5> */}
       <h5 class="ccard-icon"><MdEmail/></h5>
       <h6 class="ccard-subtitle">Email</h6>
       <p class="ccard-text">mansi27mittal@gmail.com</p>
@@ -48,8 +49,8 @@ export default function Contact() {
                 <input type="text" class="permsg" placeholder="Text Message"/>
               </div>
       
-              <div class="sbutton">
-                <button class="cbtn">Submit</button>
+              <div class="cbutton">
+              <button>Submit</button>
               </div>
 
       </form>

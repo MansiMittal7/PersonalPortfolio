@@ -3,18 +3,30 @@
     padding:0;
     text-decoration: none;
 }
-.containers{
+.sidebar_containers{
     display:flex;
+    max-width : 100vw;
+    /* overflow-x : hidden; */
+    /* position: fixed; */
+    /* position: sticky; */
+    /* z-index: 99; */
+    /* overflow-y: scroll; */
 }
 main{
     width: 100%;
+    max-width: calc(100% - 100px);
+    /* overflow-y: scroll; */
 }
 .sidebar{
     background: #2e2e2e;
     color: #fff;
-    height: 200vh;
+    height: 100vh;
     width: 200px;
     transition: all 0.5s;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
     /* position: fixed;
     overflow-x: hidden;
     z-index:1; */

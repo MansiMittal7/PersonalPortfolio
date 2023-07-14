@@ -2,24 +2,19 @@ import React from 'react'
 import './Home.css'
 import pic from './formalpic.png'
 import { FaFacebook,FaGithub,FaLinkedin,FaInstagram} from "react-icons/fa";
+// import Typewriter from 'typewriter-effect'
 
-//  let title = document.querySelector({selectors:'.main_heading' });
-//  let name= "I am a developer"
-//  let index= 1;
-
-//  const typeWriter = () =>{
-//      let new_title = name.slice(0,index);
-//      title.innerText = new_title;
-//      index>name.length ? index=1 : index++;
-//      index++;
-//      setTimeout( {handler:() => typeWriter(), timeout: 400})
-//  }
-
-//  typeWriter();
 
 
 export default function Home() {
+  
 
+  // const [state] = useState ({
+  //   title: "Hello, Its Mansi Mittal",
+  //   titleTwo: "I am a ",
+  //   titleThree: "Web Developer"
+
+  // })
   
   return (
     <>
@@ -31,9 +26,31 @@ export default function Home() {
         </div>
         
         <h1>Mansi Mittal</h1>
-        <h3>and I am a<span className='text'></span></h3>
-        <p>I Am A Web Developer For More Than 4 Years. My Expertise Is To Develop And Design Creative Websites And Graphic Designs</p>
-      
+        {/* <h3>and I am a<span className='text'></span></h3> */}
+        <p>I'm a Web Developer. My expertise is to develop creative Websites.</p>
+        
+        {/* <h2>
+          
+          <div className='htitle'>{state.title}</div>
+          <div className='htitleTwo'>{state.titleTwo}</div>
+          <div className='htitleThree'>{state.titleThree}</div>
+
+        </h2> */}
+
+        {/* <div className='htext'> */}
+          {/* <Typewriter
+            options={{autoStart: true,
+                      loop: true,
+                      delay:40,
+                      string:[
+                        "I am a Web Developer",
+                        "I am a Web Designer",
+                        "I am a Tech Enthusiast"
+                      ],
+            }} /> */}
+        {/* </div> */}
+
+
       <div className='home-sci'>
         <a href='https://www.facebook.com/mansi.mittal.583'><FaFacebook/></a>
         <a href='https://github.com/MansiMittal7'><FaGithub/></a>
