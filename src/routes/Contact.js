@@ -15,7 +15,7 @@ export default function Contact() {
       <div class="ccard" style={{width: "700px", height: "250px"}}>
       <h5 class="ccard-icon"><BsTelephoneFill/></h5>
       <h6 class="ccard-subtitle">Phone</h6>
-      <p class="ccard-text">+91 7999969721</p>
+      <p class="ccard-text">+91 7999999997</p>
       </div>
 
       <div class="ccard" style={{width: "700px", height: "250px"}}>
